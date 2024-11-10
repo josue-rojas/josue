@@ -10,7 +10,14 @@ import styles from './styles.module.css';
 export function Home() {
 
   return <div id='home' className={styles.home}>
-    <IntroSlide title={"Josue Rojas"} description={"Software Engineer"}/>
+    <IntroSlide
+      title={"Josue Rojas"}
+      attributes={[
+        "Full Stack Software Engineer",
+        "4+ Years of Experience",
+        "Experience with Large Scale and Startups",
+        "Current Obsessions: Photography, Diners, and Frames"
+      ]} />
     <HighlightSlide title={"Highlight"} description={"Software Engineer"}/>
     <AccomplishmentSlide title={"Accomplishment"} description={"Software Engineer"}/>
     <AlignmentSlide title={"Alignment"} description={"Software Engineer"}/>

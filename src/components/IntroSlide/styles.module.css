@@ -1,5 +1,23 @@
 .introSlide {
+  background-color: var(--third-color);
+  display: flex;
   height: 100vh;
   width: 100%;
-  background-color: var(--third-color);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 8em;
+  margin-top: -40px;
+}
+
+.attribute {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+  color: var(--fifth-color);
+}
+
+.line {
+  margin: 10px 0 40px
 }
