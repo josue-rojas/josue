@@ -1,0 +1,18 @@
+.highlightCard {
+  background-color: var(--third-color);
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.titleWrapper {
+  padding: 20px;
+  background-color: var(--first-color);
+  border-radius: 5px 5px 0 0;
+  color: var(--fourth-color);
+  font-weight: bold;
+}
+
+.highlightsWrapper {
+  padding: 20px;
+
+}

@@ -3,3 +3,17 @@
   width: 100%;
   background-color: var(--fourth-color);
 }
+
+.title {
+  font-size: 8em;
+  margin-bottom: 40px;
+}
+
+
+.highlights {
+  column-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  max-width: 800px;
+}

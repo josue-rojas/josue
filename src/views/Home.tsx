@@ -18,7 +18,20 @@ export function Home() {
         "Experience with Large Scale and Startups",
         "Current Obsessions: Photography, Diners, and Frames"
       ]} />
-    <HighlightSlide title={"Highlight"} description={"Software Engineer"}/>
+    <HighlightSlide title={"Highlights"} highlights={[
+      {
+        title: "Front End Technologies",
+        highlights: ["JavaScript", "React.js"]
+      },
+      {
+        title: "Back End Technologies",
+        highlights: ["NodeJS", "PostgreSQL", "Firebase"]
+      },
+      {
+        title: "Cloud Technologies",
+        highlights: ["AWS", "GCP", "Azure"]
+      },
+    ]} />
     <AccomplishmentSlide title={"Accomplishment"} description={"Software Engineer"}/>
     <AlignmentSlide title={"Alignment"} description={"Software Engineer"}/>
     <VisionSlide title={"Vision"} description={"Software Engineer"}/>

@@ -4,7 +4,7 @@
   width: 100vw;
 }
 
-.slide :first-child {
+.slide > :first-child {
   box-sizing: border-box;
   padding: 0 20px;
 }
