@@ -10,7 +10,7 @@ export function VisionSlide(props: VisionSlideProps) {
     <Slide>
       <div className={styles.visionSlide}>
         <h1 className={styles.title}>{props.title}</h1>
-        <p>{props.description}</p>
+        {/* <p>{props.description}</p> */}
       </div>
     </Slide>
   );
