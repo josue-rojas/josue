@@ -1,0 +1,28 @@
+.bulletPoint {
+  align-items: center;
+  display: flex;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.title {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.description {
+  margin: 0;
+}
+
+.iconContainer {
+  align-items: center;
+  background-color: var(--fourth-color);
+  border-radius: 50%;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 50px;
+  justify-content: center;
+  margin-right: 15px;
+  width: 50px;
+}

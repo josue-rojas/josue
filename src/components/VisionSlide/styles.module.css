@@ -3,3 +3,8 @@
   width: 100%;
   background-color: var(--third-color);
 }
+
+.title {
+  font-size: 8em;
+
+}

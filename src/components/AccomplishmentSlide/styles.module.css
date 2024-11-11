@@ -3,3 +3,17 @@
   width: 100%;
   background-color: var(--fifth-color);
 }
+
+.title {
+  font-size: 8em;
+  margin-bottom: 120px;
+}
+
+.bulletPoints {
+  column-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  max-width: 1000px;
+  row-gap: 20px;
+}
