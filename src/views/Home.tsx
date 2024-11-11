@@ -1,6 +1,6 @@
 import { AccomplishmentSlide } from "../components/AccomplishmentSlide";
 import { AlignmentSlide } from "../components/AlignmentSlide ";
-import { ClosingSlide } from "../components/ClosingSlide";
+// import { ClosingSlide } from "../components/ClosingSlide";
 import { HighlightSlide } from "../components/HighlightSlide";
 import { IconAdaptable } from "../components/IconAdaptable";
 import { IconDeploy } from "../components/IconDeploy";
