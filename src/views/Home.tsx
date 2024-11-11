@@ -20,21 +20,21 @@ export function Home() {
       attributes={[
         "Full Stack Software Engineer",
         "4+ Years of Experience",
-        "Experience with Large Scale and Startups",
+        "Previously worked at MikMak and Accenture",
         "Current Obsessions: Photography, Diners, and Frames"
       ]} />
     <HighlightSlide title={"Highlights"} highlights={[
       {
         title: "Front End Technologies",
-        highlights: ["JavaScript", "React.js", "HTML", "CSS", "NextJS"]
+        highlights: ["JavaScript", "React.js", "NextJS", "HTML", "CSS"]
       },
       {
         title: "Back End Technologies",
-        highlights: ["NodeJS", "PostgreSQL", "MongoDB", "Firebase"]
+        highlights: ["NodeJS", "PostgreSQL", "MongoDB", "Firebase", "REST", "Graphql"]
       },
       {
-        title: "Cloud Technologies",
-        highlights: ["Google Cloud", "AWS", "Vercel", "Azure"]
+        title: "Cloud/Infrastructure Technologies",
+        highlights: ["Google Cloud", "AWS", "Vercel","Docker", "Azure"]
       },
       {
         title: "Tools",
@@ -52,7 +52,7 @@ export function Home() {
     <AccomplishmentSlide title={"Accomplishment"} bulletPoints={[
       {
         title: "Best Practice Advocate",
-        description: "Advocated for use of ESLint accross MikMak's code repos leading to faster code reviews and less error prone.",
+        description: "Advocated for use of ESLint accross MikMak's code repos leading to faster code reviews and less error prone code.",
         icon: <IconDeploy />
       },
       {
@@ -74,7 +74,7 @@ export function Home() {
     <AlignmentSlide title={"Alignment"} features={[
       {
         title: 'Mission',
-        description: "I am looking to work for a positive mission company. I also love the mission of bringing different perspectives and awereness to how we expliore the city.",
+        description: "I am looking to work for a positive mission company. I also love the mission of bringing different perspectives and awereness to how we explore the city.",
         image: <VectorBird width={3200} height={300} />
       },
       {
