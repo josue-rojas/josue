@@ -10,11 +10,17 @@ export function IntroSlide(props: IntroSlideProps) {
   return (
     <Slide>
       <div className={styles.introSlide}>
-        <h1 className={styles.title}>{props.title}</h1>
-        <Line color="fourth" className={styles.line} />
-        {props.attributes.map((a) => {
-          return <p key={a} className={styles.attribute}>{a}</p>
-        })}
+        <div className={styles.introContent}>
+          <div className={styles.titleWrapper}>
+            {props.title.split(' ').map(w => (<><h1 className={styles.title}>{w}</h1></>))
+            }</div>
+          <Line color="first" type="vertical" />
+          <div className={styles.attributes}>
+            {props.attributes.map((a) => {
+              return <p key={a} className={styles.attribute}>{a}</p>
+            })}
+          </div>
+        </div>
       </div>
     </Slide>
   );
