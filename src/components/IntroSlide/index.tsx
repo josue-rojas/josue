@@ -14,7 +14,7 @@ export function IntroSlide(props: IntroSlideProps) {
           <div className={styles.titleWrapper}>
             {props.title.split(' ').map(w => (<><h1 className={styles.title}>{w}</h1></>))
             }</div>
-          <Line color="first" type="vertical" />
+          <Line color="first" type="vertical" className={styles.line} />
           <div className={styles.attributes}>
             {props.attributes.map((a) => {
               return <p key={a} className={styles.attribute}>{a}</p>

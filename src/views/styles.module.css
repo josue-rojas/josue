@@ -3,3 +3,10 @@
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
+
+.message {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}

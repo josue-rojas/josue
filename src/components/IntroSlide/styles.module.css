@@ -1,7 +1,7 @@
 .introSlide {
   background-color: var(--third-color);
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   flex-direction: column;
   justify-content: center;
@@ -28,8 +28,9 @@
   font-size: 8em;
 }
 
-.attributes {
-  /* padding-left: 40px; */
+.line {
+  height: auto;
+  align-self: stretch;
 }
 
 .attribute {

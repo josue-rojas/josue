@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { AccomplishmentSlide } from "../components/AccomplishmentSlide";
 import { AlignmentSlide } from "../components/AlignmentSlide ";
 // import { ClosingSlide } from "../components/ClosingSlide";
@@ -13,6 +14,21 @@ import styles from './styles.module.css';
 
 
 export function Home() {
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth >= 1024);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  if (!isDesktop) {
+    return <div className={styles.message}>Please view this content on a desktop-sized screen ({">=1024px"}).</div>;
+  }
+
 
   return <div id='home' className={styles.home}>
     <IntroSlide
